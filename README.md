@@ -1,5 +1,10 @@
 # wireframer
 
+![Alt text](assets/example_screendesign.png?raw=true "Title")
+
+![Alt text](assets/example_wireframes.png?raw=true "Title")
+
+
 ## Installation
 
 - [Download](../../releases/latest/download/wireframer.sketchplugin.zip) the latest release of the plugin
