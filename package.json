@@ -2,6 +2,7 @@
   "name": "wireframr",
   "description": "",
   "version": "0.1.0",
+  "repository": "https://github.com/chewbecky/wireframr.git",
   "engines": {
     "sketch": ">=49.0"
   },

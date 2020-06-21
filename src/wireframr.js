@@ -3,26 +3,27 @@ const document = sketch.getSelectedDocument();
 
 // check if Shared Style "Wireframr" exists
 let length = document.sharedLayerStyles.length;
-let preExistingStyle;
+let styleExists = false;
+let wrfrmrSharedStyle;
 
-for (let i = length; i === 0; i--) {
+for (let i = length - 1; i >= 0; i--) {
   if (document.sharedLayerStyles[i].name === "Wireframr") {
-    preExistingStyle = document.sharedLayerStyles[i];
+    styleExists = true;
+    wrfrmrSharedStyle = document.sharedLayerStyles[i];
     break;
   }
 }
 
-// use preexisting style or create new
-const wrfrmrSharedStyle = preExistingStyle
-  ? preExistingStyle
-  : sketch.SharedStyle.fromStyle({
-      name: "Wireframr",
-      style: {
-        borders: [{ color: "#333333" }],
-        fills: [{ color: "#ffffff", fillType: sketch.Style.FillType.Color }],
-      },
-      document: document,
-    });
+if (!styleExists) {
+  wrfrmrSharedStyle = sketch.SharedStyle.fromStyle({
+    name: "Wireframr",
+    style: {
+      borders: [{ color: "#333333" }],
+      fills: [{ color: "#ffffff", fillType: sketch.Style.FillType.Color }],
+    },
+    document: document,
+  });
+}
 
 export default function (context) {
   let selection = document.selectedLayers;
