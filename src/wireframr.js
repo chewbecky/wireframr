@@ -5,7 +5,7 @@ const document = sketch.getSelectedDocument();
 let length = document.sharedLayerStyles.length;
 let preExistingStyle;
 
-for (let i = 0; i < length; i++) {
+for (let i = length; i === 0; i--) {
   if (document.sharedLayerStyles[i].name === "Wireframr") {
     preExistingStyle = document.sharedLayerStyles[i];
     break;
@@ -42,7 +42,7 @@ function wireframeSelection(selection) {
       }
     } else if (element.type === "Text") {
       element.style.fontFamily = "Comic Sans MS";
-      if (element.style.fontFamily === "Comic Sans MS") {
+      if (element.style.fontFamily !== "Comic Sans MS") {
         element.style.fontSize = element.style.fontSize - 2;
       }
       element.style.textColor = "#333333";
