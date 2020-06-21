@@ -1,8 +1,6 @@
 # wireframer
 
-![Alt text](assets/example_screendesign.png?raw=true "Screendesign")
-
-![Alt text](assets/example_wireframes.png?raw=true "Wireframe")
+![Screendesign](assets/example_screendesign.png?raw=true "Screendesign")  ![Wireframe](assets/example_wireframes.png?raw=true "Wireframe")
 
 ## Installation
 
@@ -12,4 +10,4 @@
 
 ## Usage
 
-To use Wirframr, select the elements in Sketch you want to be "wireframed" and go to Plugins -> Wireframe -> Create Wireframes.
+To use Wirframr, select the elements in Sketch you want to look like wireframes and go to Plugins -> Wireframe -> Create Wireframes.
