@@ -10,5 +10,8 @@
     <item>
       <enclosure url="https://github.com/chewbecky/wireframr/releases/download/v1.0.0/wireframr.sketchplugin.zip" sparkle:version="1.0.0"/>
     </item>
+    <item>
+      <enclosure url="https://github.com/chewbecky/wireframr/releases/download/v1.0.0/wireframr.sketchplugin.zip" sparkle:version="1.0.0"/>
+    </item>
   </channel>
 </rss>
