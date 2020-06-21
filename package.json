@@ -27,6 +27,5 @@
     "@skpm/builder": "^0.7.0",
     "prettier": "^2.0.5"
   },
-  "author": "chewbecca <beckybettinger@yahoo.de>",
-  "version": "1.0.0"
+  "author": "chewbecca <beckybettinger@yahoo.de>"
 }
