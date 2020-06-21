@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Create Wireframes",
+      "identifier": "wireframr.create-wireframes",
+      "script": "./wireframr.js"
+    }
+  ],
+  "menu": {
+    "title": "Wireframr",
+    "items": [
+      "wireframr.create-wireframes"
+    ]
+  }
+}
