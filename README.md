@@ -8,7 +8,7 @@ Enter *Wireframr*! With *Wireframr* you can easily change the style of every Ske
 
 ## Installation
 
-- [Download](../../releases/latest/download/v1.0.0/wireframr.sketchplugin.zip) the latest release of the plugin
+- [Download](../../releases/download/v1.0.0/wireframr.sketchplugin.zip) the latest release of the plugin
 - Un-zip
 - Double-click on wireframer.sketchplugin
 
